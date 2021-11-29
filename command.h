@@ -1,0 +1,27 @@
+#define FLOW_ANALYSER_TYPE "SMCE"
+#define _blank ""
+#define M_DELIMETER ":"
+#define R_DELIMETER "$"
+#define W_DELIMETER "@"
+
+// ##################### SERIAL WRITE COMMANDS ################
+#define W_O2_CONC "O2_CONCENTRATION"
+#define W_O2_FLOW "O2_FLOW"
+#define W_N2_FLOW "N2_FLOW"
+#define W_TOTAL_FLOW "TOTALFLOW"
+#define W_ANALYSER_FLOW "ANALYSERFLOW"
+#define W_ACHIEVED "POINT_ACHIEVED"
+#define W_CONNECT "CONNECT"
+#define W_ANALYSER_TYPE "ANALYSER_TYPE" 
+#define W_FLOW_SET "FLOW_SET"
+
+// ##################### SERIAL READ COMMANDS ################
+#define R_HANDSHAKE "START"
+#define R_PASS_N2 "PASS_N2"
+#define R_PASS_O2 "PASS_O2"
+#define R_SET_0 "SET_0"
+#define R_SET_O2 "SET_O2"
+#define R_SET_100 "SET_100"
+#define R_OFF_ALL "OFF_ALL"
+#define R_RESET "RESET"
+#define R_SET_TOTALFLOW "SET_TOTALFLOW"
